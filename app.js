@@ -1,9 +1,8 @@
 require('dotenv').config();
-
 const express = require('express');
-const app = express();
-
 const index = require('./routes/index');
+
+const app = express();
 
 const { PORT } = process.env;
 
