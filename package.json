@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "license": "SEE LICENSE",
   "description": "Boilerplate example for a generic NodeJS service",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "GWShark0/node-service-boilerplate"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
