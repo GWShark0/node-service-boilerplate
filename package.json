@@ -7,9 +7,8 @@
     "type": "git",
     "url": "GWShark0/node-service-boilerplate"
   },
-  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node bin/www",
     "lint": "eslint . \".*.js\"",
     "lint:fix": "npm run lint -- --fix"
   },
